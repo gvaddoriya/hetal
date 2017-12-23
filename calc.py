@@ -114,7 +114,7 @@ class Calc(Parser):
 
     def p_statement_expr(self, p):
         'statement : expression'
-        print(p[1])
+        printf(p[1])
 
     def p_expression_binop(self, p):
         """
